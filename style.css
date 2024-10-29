@@ -421,6 +421,10 @@ body {
 }
 
  @media (max-width: 992px) {
+    
+    .interior-img-txt-all{
+        height: 990px;
+    }
     .box {
         flex-direction: column;
         align-items: center;
@@ -450,6 +454,9 @@ body {
 } 
 
 @media (max-width: 768px) {
+    .interior-img-txt-all{
+        height: 810px;
+    }
     .box {
         flex-direction: column;
         align-items: center;
@@ -482,13 +489,17 @@ body {
 
 
 /* <!-- OUR CLIENTS SECTION START --> */
-
+.inner-width-all{
+    width: 100%;
+    /* background-color: red; */
+}
 .services{
     width:100%;
     text-align: center;
 
 }
 .inner-width{
+    width: 100%;
     max-width: 1500px;
     margin: auto;
     padding: 90px 20px;
