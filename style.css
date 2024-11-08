@@ -698,16 +698,16 @@ body {
     display: flex;
 }
 .testimonial .image {
-    height: 170px;
-    width: 170px;
+    height: 107px;
+    width: 107px;
     object-fit: cover;
     border-radius: 50%;
 }
 .slider p {
-    padding: 0 40px;
+    padding: 49px 137px;
     font-size: 14px;
     font-weight: 400;
-    color: #333;
+    color: #333
 }
 .slider i {
     font-size: 35px;
