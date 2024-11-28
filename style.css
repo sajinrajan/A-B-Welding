@@ -96,6 +96,15 @@ body {
     color: #000;
     cursor: pointer;
 }
+.login-btn>i{
+    font-size: 23px;
+    text-decoration: none;
+    color: #c7ad1d;
+}
+.login-btn>i:hover{
+   
+    color: #b19a1a;
+}
 
 /* Responsive adjustments for tablets and mobile */
 @media (max-width: 1060px) {
@@ -241,7 +250,7 @@ body {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .service-card {
@@ -274,13 +283,13 @@ body {
     align-items: center;
 }
 .work-but a{
-    background-color: black;
-    color: #fff ;
+    background-color: #e1b82b;
+    color: #000000 ;
     padding: 11px 30px;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px #9e801c;
     margin: 25px;
     width: 180px;
     display: flex;
@@ -466,6 +475,7 @@ body {
     .content-box {
         /* margin-bottom: 20px; */
         text-align: center;
+        padding-top: 46px;
     }
 
     .img-fluid {
@@ -512,7 +522,7 @@ body {
     margin-bottom: 80px;
 }
 .inner-width h1 strong{
-    color: #6ab04c;
+    color: #c7ad1d;
 }
 .service-icon{
     width: 60px;
@@ -520,7 +530,7 @@ body {
     margin: auto;
     background-color: #ecf6ff;
     border-radius: 50%;
-    color: #6ab04c;
+    color: #c7ad1d;
     line-height: 60px;
     font-size: 30px;
 }
@@ -551,6 +561,7 @@ body {
     width: 36px;
     background-color: #808080 !important ;
 }
+
 /* <!-- OUR CLIENTS SECTION END --> */
 
 
@@ -634,7 +645,7 @@ body {
 /* Mobile phones */
 @media (max-width: 767px) {
     .inner-width{
-        padding: 140px 0;
+        padding: 10px 0;
     }
     .testimonials {
         flex-direction: column;
@@ -652,6 +663,14 @@ body {
 
     .blog-img img {
         max-width: 90%;
+    }
+    .container {
+        margin: 0 auto;
+        padding:40px 20px;
+    }
+    .container-image {
+        
+        padding-top: 30px;
     }
 }
 
@@ -756,7 +775,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .slider p {
-        padding: 0 20px;
+        padding: 0 50px;
         font-size: 13px;
     }
     .testimonial {
@@ -951,6 +970,22 @@ footer{
     padding: 30px 2;
 }
 /* <!-- ICON UP ARRO START --> */
+/* .gotopbtn{
+    position: fixed;
+    z-index: 80;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #c7ad1d;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 24px;
+    transition: all 0.3s ease; 
+} */
 .gotopbtn {
     position: fixed;
     z-index: 80;
@@ -967,4 +1002,9 @@ footer{
     font-size: 24px;
     transition: all 0.3s ease; 
 }
+.gotopbtn:hover {
+    background-color: #b19a1a; /* Slightly darker shade for hover */
+    color: #fff;
+}
+
 /* <!-- ICON UP ARRO End --> */
