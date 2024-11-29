@@ -96,7 +96,7 @@ body {
     color: #000;
     cursor: pointer;
 }
-.login-btn>i{
+/* .login-btn>i{
     font-size: 23px;
     text-decoration: none;
     color: #c7ad1d;
@@ -104,7 +104,7 @@ body {
 .login-btn>i:hover{
    
     color: #b19a1a;
-}
+} */
 
 /* Responsive adjustments for tablets and mobile */
 @media (max-width: 1060px) {
