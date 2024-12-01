@@ -254,7 +254,7 @@ body {
 }
 
 .service-card {
-    background-color: rgb(245, 221, 36);
+    border: 3px solid rgb(245, 221, 36);
     padding: 20px;
     border-radius: 8px;
     transition: transform 0.3s ease;
