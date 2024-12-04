@@ -206,6 +206,10 @@ body {
     .content {
         margin-top: 200px;
     }
+    .first-image {
+       
+        margin-top: 70px;
+    }
 }
 
 /* For smaller screens like mobile devices */
@@ -875,7 +879,7 @@ footer{
   width: 44px;
   height: 44px;
   margin-right: 10px;
-  background-color: rgba(3, 127, 243, 0.5);
+  background-color: #e3d064;
   color: #ffffff;
   border-radius: 50%;
   font-size: 20px;
@@ -886,7 +890,7 @@ footer{
   transition: all 0.3 ease-in-out;
 }
 .wrapper .footer-widget .socials li a:hover{
-    background-color: #037ef3;
+    background-color: #b19a1a;
 }
 .wrapper .footer-widget  h6{
     color: #585978;
