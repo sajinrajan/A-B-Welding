@@ -169,7 +169,7 @@ body {
 .first-image {
     width: 100%;
     height: 600px;
-    margin-top: 102px;
+    margin-top: 78px;
 }
 
 .first-image > img {
@@ -210,7 +210,7 @@ body {
     }
     .first-image {
        
-        margin-top: 102px;
+        margin-top: 76px;
     }
 }
 
@@ -258,6 +258,7 @@ body {
     text-align: center;
     margin-bottom: 0px;
 }
+
 
 .service-card {
     border: 3px solid rgb(245, 221, 36);
@@ -314,10 +315,13 @@ body {
     .service-card p {
         font-size: 1.1rem;
     }
+    .contain-latest-work{
+        margin-top: -100px;
+    }
 }
 
 /* Tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px)  {
     .services-section {
         padding: 0 15px;
     }
@@ -332,6 +336,9 @@ body {
 
     .service-card p {
         font-size: 1rem;
+    }
+    .contain-latest-work{
+        margin-top: -10px;
     }
 }
 
@@ -351,6 +358,14 @@ body {
 
     .mb-4 {
         margin-bottom: 20px;
+    }
+    .contain-latest-work{
+        margin-top: 3px;
+    }
+}
+@media (max-width:    425px) {
+    .contain-latest-work{
+        margin-top: 10px;
     }
 }
 
@@ -399,8 +414,7 @@ body {
     width: 100%;
     height: 650px;
     position: relative;
-    /* border: 5px solid black; */
-
+    margin-top: 50px;
 }
 .box {
     display: flex;
@@ -440,6 +454,7 @@ body {
     
     .interior-img-txt-all{
         height: 990px;
+
     }
     .box {
         flex-direction: column;
@@ -449,10 +464,10 @@ body {
     .content-box{
         margin-right: 0;
         text-align: center;
-        /* margin-top: 150px; */
+        margin-top: -75px;
     }
     .box{
-        margin-top: -47px;
+        /* margin-top: -47px; */
     }
     .img-fluid {
         width: 100%;
@@ -500,8 +515,11 @@ body {
         /* margin-top: -17px; */
     }
 }
-
-
+@media (max-width:    425px) {
+    .content-box{
+        margin-top: -0px;
+    }
+}
 
 
 
@@ -519,7 +537,7 @@ body {
     width: 100%;
     max-width: 1500px;
     margin: auto;
-    padding: 90px 20px;
+    padding: 0px 56px;
 }
 .inner-width >h1{
     text-align: center;
@@ -578,7 +596,7 @@ body {
  .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding:100px 20px;
+    padding:50px 20px;
 }
 
 .testimonials {
@@ -628,7 +646,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
     
     .inner-width{
-        margin-top: 250px;
+        margin-top: 34px;
     }
     .testimonials {
         flex-direction: column;
