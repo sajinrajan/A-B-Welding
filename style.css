@@ -245,6 +245,29 @@ body {
 
 }
 /* <!-- Hero Section  Start End--> */
+
+/* <!-- INTERIOR DESIGN SECTION START --> */
+.work-but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-but a{
+    background-color: #e1b82b;
+    color: #000000 ;
+    padding: 11px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 10px #9e801c;
+    margin: 25px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* <!-- INTERIOR DESIGN SECTION END --> */
+
  
 /* <!-- Services Section Start--> */
 /* 
@@ -284,25 +307,7 @@ body {
     font-size: 1rem;
     line-height: 1.6;
 }
-.work-but {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.work-but a{
-    background-color: #e1b82b;
-    color: #000000 ;
-    padding: 11px 30px;
-    border-radius: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    box-shadow: 10px 10px 10px #9e801c;
-    margin: 25px;
-    width: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* Responsive styles */
 
@@ -338,7 +343,7 @@ body {
         font-size: 1rem;
     }
     .contain-latest-work{
-        margin-top: -10px;
+        margin-top: 24px;
     }
 }
 
