@@ -88,3 +88,4 @@ showSlide(currentSlide);
 autoSlide();
 
 // <!-- TESTIMONIAL SECTION END -->
+

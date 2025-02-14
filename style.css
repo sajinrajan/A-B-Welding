@@ -245,62 +245,62 @@ body {
 
 }
 /* <!-- Hero Section  Start End--> */
-
-/* <!-- INTERIOR DESIGN SECTION START --> */
-.work-but {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.work-but a{
-    background-color: #e1b82b;
-    color: #000000 ;
+/* General Button Styling */
+.btn-custom {
+    background-color: #c7ad1d;
+    color: #000;
     padding: 11px 30px;
-    border-radius: 5px;
-    text-decoration: none;
+    border-radius: 8px;
     text-transform: uppercase;
-    box-shadow: 10px 10px 10px #9e801c;
-    margin: 25px;
-    width: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* <!-- INTERIOR DESIGN SECTION END --> */
-
- 
-/* <!-- Services Section Start--> */
-/* 
-
-
-
-/* General styles */
-.services-section h2 {
-    font-size: 30px;
+    text-decoration: none;
     font-weight: 600;
-    text-align: center;
-    margin-bottom: 0px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+.btn-custom:hover {
+    background-color: #e1b82b;
+    transform: translateY(-5px);
+}
+
+/* Interior Section Styling */
+.interior-img-txt h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.interior-img-txt p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.blog-img img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Services Section Styling */
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
 
 .service-card {
-    border: 3px solid rgb(245, 221, 36);
-    padding: 20px;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border: 2px solid #f5dd24;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
-.service-card h3 {
-    font-size: 1.5rem;
+.service-card h5 {
+    font-size: 1.4rem;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .service-card p {
@@ -308,73 +308,50 @@ body {
     line-height: 1.6;
 }
 
-
-/* Responsive styles */
-
-/* Large screens (laptops/desktops) */
-@media (min-width: 992px) {
-    .service-card h3 {
-        font-size: 1.7rem;
-    }
-
-    .service-card p {
-        font-size: 1.1rem;
-    }
-    .contain-latest-work{
-        margin-top: -100px;
-    }
+/* Work Button Styling */
+.work-but {
+    display: flex;
+    justify-content: center;
 }
 
-/* Tablets */
-@media (max-width: 991px)  {
-    .services-section {
-        padding: 0 15px;
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .interior-img-txt h1 {
+        font-size: 2rem;
     }
-
-    .service-card {
-        padding: 15px;
-    }
-
-    .service-card h3 {
-        font-size: 1.5rem;
-    }
-
-    .service-card p {
+    .interior-img-txt p {
         font-size: 1rem;
     }
-    .contain-latest-work{
-        margin-top: 24px;
-    }
 }
 
-/* Mobile phones */
 @media (max-width: 767px) {
-    .service-card {
-        padding: 15px;
+    .interior-img-txt h1 {
+        font-size: 1.8rem;
     }
-
-    .service-card h3 {
-        font-size: 1.3rem;
-    }
-
-    .service-card p {
+    .interior-img-txt p {
         font-size: 0.95rem;
     }
 
-    .mb-4 {
-        margin-bottom: 20px;
+    .service-card h5 {
+        font-size: 1.2rem;
     }
-    .contain-latest-work{
-        margin-top: 3px;
-    }
-}
-@media (max-width:    425px) {
-    .contain-latest-work{
-        margin-top: 10px;
+    .service-card p {
+        font-size: 0.9rem;
     }
 }
 
-/* <!-- Services Section End--> */
+@media (max-width: 425px) {
+    .interior-img-txt h1 {
+        font-size: 1.5rem;
+    }
+    .interior-img-txt p {
+        font-size: 0.9rem;
+    }
+    .work-but a {
+        padding: 10px 20px;
+        width: auto;
+    }
+}
 
 /* First slider section start */
 .slider-section {
@@ -598,110 +575,7 @@ body {
 /* <!-- Testimonials section start --> */
 
  /* General styles */
- .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding:50px 20px;
-}
-
-.testimonials {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.blog-img {
-    display: flex;
-    justify-content: center;
-}
-
-.img-testimonials {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-}
-
-.testimonials-content {
-    padding: 20px;
-    color: black;
-}
-
-/* Responsive styles */
-
-/* Large screens (laptops/desktops) */
-@media (min-width: 992px) {
-    .inner-width{
-        margin-top: 50px;
-    }
-    .testimonials {
-        flex-direction: row;
-    }
-
-    .testimonials-content h1 {
-        font-size: 2.5rem;
-    }
-
-    .testimonials-content p {
-        font-size: 1.2rem;
-        line-height: 1.8;
-    }
-}
-
-/* Tablets */
-@media (min-width: 768px) and (max-width: 991px) {
-    
-    .inner-width{
-        margin-top: 34px;
-    }
-    .testimonials {
-        flex-direction: column;
-    }
-
-    .testimonials-content h1 {
-        font-size: 2rem;
-    }
-
-    .testimonials-content p {
-        font-size: 1.1rem;
-        line-height: 1.7;
-    }
-
-    .blog-img {
-        margin-bottom: 20px;
-    }
-}
-
-/* Mobile phones */
-@media (max-width: 767px) {
-    .inner-width{
-        padding: 10px 0;
-    }
-    .testimonials {
-        flex-direction: column;
-    }
-
-    .testimonials-content h1 {
-        font-size: 1.8rem;
-        text-align: center;
-    }
-
-    .testimonials-content p {
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    .blog-img img {
-        max-width: 90%;
-    }
-    .container {
-        margin: 0 auto;
-        padding:40px 20px;
-    }
-    .container-image {
-        
-        padding-top: 30px;
-    }
-}
+ 
 
 /* <!-- Testimonials section end --> */
 
