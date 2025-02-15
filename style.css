@@ -905,6 +905,9 @@ footer{
     font-size: 24px;
     transition: all 0.3s ease; 
 }
+.gotopbtn i{
+    padding-top: 11px;
+}
 .gotopbtn:hover {
     background-color: #b19a1a; /* Slightly darker shade for hover */
     color: #fff;
